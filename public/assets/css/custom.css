@@ -1,0 +1,220 @@
+
+img.flag {
+    background: url(../assets/css/flags/flags.png?v=0) no-repeat
+}
+
+
+
+
+/***********  RESPONSIVE MEDIA QUERY  ********** * */
+.width-search{
+	    width: 543px;
+    box-shadow: -2px 0px 7px rgb(169 162 162);
+	
+}
+.color-btns{background-color: #4682b4;}
+.main-sidebar{
+	display:none;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 550px) {
+	
+	/* Main Sidebar */	
+.main-sidebar{
+	display:block;
+}
+.main-sidebar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/* background: rgba(0 0 0 / 0.8); */
+	z-index: 1;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+	}
+.main-sidebar.show-main-sidebar{
+	opacity: 1;
+	visibility: visible;
+}
+.main-sidebar .inner-sidebar{
+	position: absolute;
+	top: -100%;
+	transition: 0.4s;
+	width: 100%;
+	height: 18%;
+	background: #f04438;
+	z-index: 99999;
+	}
+.main-sidebar.show-main-sidebar .inner-sidebar{
+	top: 33px;
+	}
+.sidebar-menu{
+	padding: 0px 15px;
+	overflow: hidden;
+}
+.sidebar-menu ul li a {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff !important;
+    display: block;
+    width: 100$;
+}
+
+ /* end Main Sidebar */	
+	
+	
+	
+body {
+        overflow-x: hidden !important;
+}
+.dtable-cell {
+    display: none;
+}	
+.skin-blue .wide-intro .search-row {
+    background-color: transparent;
+}
+.wide-intro h1 {
+    font-size: 32px;
+}	
+.wide-intro {
+        height: 144px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.search-row .search-col {
+    padding: 12px;
+    position: relative;
+}	
+.wide-intro .search-row {
+    margin-top: 0;
+    max-width: 100% !important;
+    padding: 5px;
+    background-color: #333;
+}
+.width-search {
+    width: 100%;
+}
+#homepage a.btn-add-listing, a.btn-add-listing, button.btn-add-listing, li.postadd.nav-item>a.btn-add-listing {
+    display: block !important;
+}
+.footer-nav-inline.social-list-color li a {
+    color: #fff !important;
+}
+.footer-nav li a {
+    color: #333 !important;
+}
+.footer-title {
+    font-size: 14px !important; 
+}
+}
+
+@media only screen and (min-width: 550px) and (max-width: 900px){
+		
+	/* Main Sidebar */	
+.main-sidebar{
+	display:block;
+}
+.main-sidebar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/* background: rgba(0 0 0 / 0.8); */
+	z-index: 1;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+	}
+.main-sidebar.show-main-sidebar{
+	opacity: 1;
+	visibility: visible;
+}
+.main-sidebar .inner-sidebar{
+	position: absolute;
+	top: -100%;
+	transition: 0.4s;
+	width: 100%;
+	height: 39%;
+	background: #f04438;
+	z-index: 99999;
+	}
+.main-sidebar.show-main-sidebar .inner-sidebar{
+	top: 33px;
+	}
+.sidebar-menu{
+	padding: 0px 15px;
+	overflow: hidden;
+}
+.sidebar-menu ul li a {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff !important;
+    display: block;
+    width: 100$;
+}
+
+ /* end Main Sidebar */	
+	
+	
+	
+body {
+        overflow-x: hidden !important;
+}
+.dtable-cell {
+    display: none;
+}	
+.skin-blue .wide-intro .search-row {
+    background-color: transparent;
+}
+.wide-intro h1 {
+    font-size: 32px;
+}	
+
+.search-row .search-col {
+    padding: 12px;
+    position: relative;
+}	
+.wide-intro .search-row {
+    margin-top: 0;
+    max-width: 100% !important;
+    padding: 5px;
+    background-color: #333;
+}
+.width-search {
+    width: 100%;
+}
+#homepage a.btn-add-listing, a.btn-add-listing, button.btn-add-listing, li.postadd.nav-item>a.btn-add-listing {
+    display: block !important;
+}
+.footer-nav-inline.social-list-color li a {
+    color: #fff !important;
+}
+.footer-nav li a {
+    color: #333 !important;
+}
+.footer-title {
+    font-size: 14px !important; 
+}
+.wide-intro {
+    height: 209px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+}

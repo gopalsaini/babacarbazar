@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "insight-font";
+  src:url("https://www.insightindia.com/mfonts/insight-font.eot");
+  src:url("https://www.insightindia.com/mfonts/insight-font.eot?#iefix") format("embedded-opentype"),
+    url("https://www.insightindia.com/mfonts/insight-font.woff") format("woff"),
+    url("https://www.insightindia.com/mfonts/insight-font.ttf") format("truetype"),
+    url("https://www.insightindia.com/mfonts/insight-font.svg#insight-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "insight-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="i-"]:before,
+[class*=" i-"]:before {
+  font-family: "insight-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.i-bubble:before {
+  content: "\61";
+}
+.i-bulb:before {
+  content: "\62";
+}
+.i-calendar:before {
+  content: "\63";
+}
+.i-camera:before {
+  content: "\64";
+}
+.i-clip:before {
+  content: "\65";
+}
+.i-megaphone:before {
+  content: "\66";
+}
+.i-mail:before {
+  content: "\67";
+}
+.i-location:before {
+  content: "\68";
+}
+.i-like:before {
+  content: "\69";
+}
+.i-key:before {
+  content: "\6a";
+}
+.i-heart:before {
+  content: "\6b";
+}
+.i-paperplane:before {
+  content: "\6c";
+}
+.i-pen:before {
+  content: "\6d";
+}
+.i-mobile:before {
+  content: "\6e";
+}
+.i-search:before {
+  content: "\6f";
+}
+.i-settings:before {
+  content: "\70";
+}
+.i-user:before {
+  content: "\71";
+}
+.i-trash:before {
+  content: "\72";
+}
+.i-tag:before {
+  content: "\73";
+}
+.i-circle:before {
+  content: "\7a";
+}
+.i-circle-o:before {
+  content: "\41";
+}
+.i-plus:before {
+  content: "\42";
+}
+.i-minus:before {
+  content: "\43";
+}
+.i-language:before {
+  content: "\44";
+}
+.i-right-open:before {
+  content: "\47";
+}
+.i-briefcase:before {
+  content: "\50";
+}
+.i-people:before {
+  content: "\51";
+}
+.i-diploma:before {
+  content: "\53";
+}
+.i-professional:before {
+  content: "\54";
+}
+.i-google-plus:before {
+  content: "\56";
+}
+.i-graduation:before {
+  content: "\57";
+}
+.i-guide:before {
+  content: "\58";
+}
+.i-meeting:before {
+  content: "\5a";
+}
+.i-phone:before {
+  content: "\30";
+}
+.i-speaking:before {
+  content: "\32";
+}
+.i-newspaper:before {
+  content: "\74";
+}
+.i-edit:before {
+  content: "\76";
+}
+.i-graph:before {
+  content: "\75";
+}
+.i-facebook:before {
+  content: "\77";
+}
+.i-twitter:before {
+  content: "\78";
+}
+.i-linkedin:before {
+  content: "\79";
+}
+.i-instagram:before {
+  content: "\45";
+}
+.i-right-angle:before {
+  content: "\46";
+}
+.i-left-angle:before {
+  content: "\48";
+}
+.i-circle-thin:before {
+  content: "\49";
+}
+.i-gold:before {
+  content: "\4b";
+}
+.i-silver:before {
+  content: "\4a";
+}
+.i-bronze:before {
+  content: "\4d";
+}
+.i-rupee:before {
+  content: "\4e";
+}
+.i-mouse:before {
+  content: "\4c";
+}
+.i-arrow-circle-right:before {
+  content: "\4f";
+}
+.i-arrow-circle-left:before {
+  content: "\52";
+}
+.i-chevron-down:before {
+  content: "\55";
+}
+.i-circle-checked:before {
+  content: "\59";
+}
+.i-checkmark:before {
+  content: "\31";
+}
+.i-square-uncheck:before {
+  content: "\33";
+}
+.i-square-checked:before {
+  content: "\34";
+}
+.i-circle-uncheck:before {
+  content: "\35";
+}
+.i-close:before {
+  content: "\36";
+}
+.i-next:before {
+  content: "\37";
+}
+.i-prev:before {
+  content: "\38";
+}
+.i-down:before {
+  content: "\39";
+}
+.i-up:before {
+  content: "\21";
+}
+.i-down-arrow:before {
+  content: "\28";
+}
+.i-up-arrow:before {
+  content: "\29";
+}
+.i-left-arrow:before {
+  content: "\2a";
+}
+.i-right-arrow:before {
+  content: "\2b";
+}
+.i-down-open:before {
+  content: "\2c";
+}
+.i-news:before {
+  content: "\2d";
+}
+.i-cloud:before {
+  content: "\2e";
+}
+.i-clock:before {
+  content: "\2f";
+}
+.i-eye:before {
+  content: "\3a";
+}
+.i-check:before {
+  content: "\3b";
+}
+.i-cancel:before {
+  content: "\3c";
+}
+.i-analytics:before {
+  content: "\3d";
+}
+.i-cloud-1:before {
+  content: "\3e";
+}
+.i-infrastructure:before {
+  content: "\3f";
+}
+.i-security:before {
+  content: "\40";
+}
+.i-mobility:before {
+  content: "\5b";
+}
+.i-bfsi:before {
+  content: "\5d";
+}
+.i-transport:before {
+  content: "\5e";
+}
+.i-retail:before {
+  content: "\5f";
+}
+.i-manufacturing:before {
+  content: "\60";
+}
+.i-healthcare:before {
+  content: "\7c";
+}
+.i-government:before {
+  content: "\7d";
+}
+.i-services:before {
+  content: "\7e";
+}
+.i-case-study:before {
+  content: "\e000";
+}
+.i-puzzle:before {
+  content: "\5c";
+}
+.i-puzzle-solved:before {
+  content: "\e001";
+}
+.i-question-circular:before {
+  content: "\e003";
+}
+.i-facebook-circular:before {
+  content: "\e002";
+}
+.i-google-plus-circular:before {
+  content: "\e004";
+}
+.i-instagram-circular:before {
+  content: "\e005";
+}
+.i-linkedin-circular:before {
+  content: "\e006";
+}
+.i-twitter-circular:before {
+  content: "\e007";
+}
+.i-youtube-circular:before {
+  content: "\e008";
+}
+.i-whatsapp-circular:before {
+  content: "\22";
+}
+.i-solution:before {
+  content: "\23";
+}
+.i-csr:before {
+  content: "\24";
+}
+.i-media:before {
+  content: "\25";
+}

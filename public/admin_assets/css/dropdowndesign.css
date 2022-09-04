@@ -1,0 +1,117 @@
+.btn-drop{
+	padding: 8px 30px 8px 20px;
+	background-color: white;
+	color: #000;
+	border: 1px solid #c0c0c0;
+	width: 100%;
+	text-align: left;
+	border-radius: 3px;
+	font-size: medium;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	margin-top: 8px;
+}
+.btn-drop i {
+	margin-right: 10px;
+	font-size: 12px;
+	text-align: center;
+	color: #818896;
+}
+.btn-drop:hover i, .show .btn-drop i {
+	color: #16c7ff;
+	text-shadow: 0px 0px 10px rgb(22 199 255 / 50%);
+	animation: swing ease-in-out 0.5s 1 alternate;
+}
+@keyframes swing {
+  0% {
+	transform: rotate(0deg);
+  }
+  10% {
+	transform: rotate(10deg);
+  }
+  30% {
+	transform: rotate(0deg);
+  }
+  40% {
+	transform: rotate(-10deg);
+  }
+  50% {
+	transform: rotate(0deg);
+  }
+  60% {
+	transform: rotate(5deg);
+  }
+  70% {
+	transform: rotate(0deg);
+  }
+  80% {
+	transform: rotate(-5deg);
+  }
+  100% {
+	transform: rotate(0deg);
+  }
+}
+.btn-drop.dropdown-toggle::after {
+	border: none;
+	font-family: "Font Awesome 5 Free";
+	content: '\f105';
+	position: absolute;
+	right: 15px;
+	color: #818896;
+	font-size: 14px;
+}
+.dropdown-menu {
+	min-width: 100%;
+	border-color: #c0c0c0;
+	margin: 0;
+	overflow: hidden;
+}
+.dropdown-menu .dropdown-item {
+	color: #818896;
+	padding: 4px 20px 4px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	transition: all 0.3s ease;
+}
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus {
+	background: #fff;
+	color: #b8bfce;
+}
+ 
+
+/*------scroll bar---------------------*/
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #525965;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #525965;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #525965;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: transparent;
+}
+::-webkit-scrollbar-track:active {
+  background: transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
