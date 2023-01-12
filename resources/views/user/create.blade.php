@@ -4007,30 +4007,11 @@ $location_id = $product->location_id ?? null;
 
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="banner1">UPLOAD UP TO 8 PHOTOS <span
-                                                            style="color:red">*</span></label>
-                                                    <div class="row mb-2">
-                                                        @if(!empty($images))
-                                                        @php $images = explode(',',$images); @endphp
-                                                        @foreach($images as $key=>$image)
-                                                        <div class="col-md-2 mb-2" id="data{{$key}}"> <span
-                                                                data-id="data{{$key}}" class="deleteimage"
-                                                                style="cursor: pointer;margin-left: 32px;border: 1px solid red;padding: 5px;border-radius: 50%;padding-top: -7px;">x</span>
-                                                            <img src="{{ asset('public/uploads/products/')}}/{{$image}}"
-                                                                class="img-sm border" style="width:80px">
-                                                            <input type="hidden" name="images[]" value="{{$image}}">
-                                                        </div>
-                                                        @endforeach
-                                                        @endif
-                                                    </div><br>
-                                                   <div class="input-images"></div>
-                                                    <br>
-                                                </div>
+                                                
                                                 <div class="form-group">
                                                     <label for="inputDescription">Description <span
                                                             style="color:red">*</span></label>
-                                                    <textarea required class="summernote form-control" rows="4" name="pro_desc"
+                                                    <textarea required class=" form-control" rows="4" name="pro_desc"
                                                         id="inputDescription">{{$pro_desc}}</textarea>
                                                 </div>
                                                 <div class="form-group">
@@ -4069,6 +4050,26 @@ $location_id = $product->location_id ?? null;
 														<option value="">Select District first </option>
 													</select>
 												</div>
+                                                <div class="form-group">
+                                                    <label for="banner1">UPLOAD UP TO 8 PHOTOS <span
+                                                            style="color:red">*</span></label>
+                                                    <div class="row mb-2">
+                                                        @if(!empty($images))
+                                                        @php $images = explode(',',$images); @endphp
+                                                        @foreach($images as $key=>$image)
+                                                        <div class="col-md-2 mb-2" id="data{{$key}}"> <span
+                                                                data-id="data{{$key}}" class="deleteimage"
+                                                                style="cursor: pointer;margin-left: 32px;border: 1px solid red;padding: 5px;border-radius: 50%;padding-top: -7px;">x</span>
+                                                            <img src="{{ asset('public/uploads/products/')}}/{{$image}}"
+                                                                class="img-sm border" style="width:80px">
+                                                            <input type="hidden" name="images[]" value="{{$image}}">
+                                                        </div>
+                                                        @endforeach
+                                                        @endif
+                                                    </div><br>
+                                                   <div class="input-images"></div>
+                                                    <br>
+                                                </div>
                                             </div>
                                         </div>
                                         <br>
